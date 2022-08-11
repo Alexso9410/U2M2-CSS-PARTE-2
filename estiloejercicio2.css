@@ -1,0 +1,42 @@
+.contenedor{
+    border: 2px solid black;
+    height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+	
+}
+
+#rojo{
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	font-size: xx-large;
+	width: 150px;
+    height: 150px;
+	background-color: red;
+}
+
+#azul{
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	font-size: xx-large;
+	width: 150px;
+    height: 150px;
+	background-color: blue;
+}
+
+#verde{
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	font-size: xx-large;
+	width: 150px;
+    height: 150px;
+	background-color: green;
+}
